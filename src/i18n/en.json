@@ -1,0 +1,138 @@
+{
+  "tabs": {
+    "home": "Home",
+    "scan": "Analysis",
+    "history": "History",
+    "profile": "Settings"
+  },
+  "home": {
+    "welcome": "Good morning,",
+    "active_threats": "Active Threats",
+    "threat_blight": "Late blight outbreak 12km from you",
+    "threat_wind": "Strong wind expected tomorrow",
+    "scan_button": "Scan Plant",
+    "recent": "Recent Analyses",
+    "view_all": "View all",
+    "no_recent": "No recent analyses yet"
+  },
+  "scan": {
+    "title": "Camera",
+    "instruction": "Position the leaf in the center",
+    "gallery": "Gallery",
+    "flip": "Flip",
+    "flash": "Flash",
+    "close": "Close",
+    "permission_title": "Camera access required",
+    "permission_desc": "Grant camera access to capture leaves for AI diagnosis",
+    "enable_camera": "Enable Camera",
+    "pick_gallery": "Pick from Gallery"
+  },
+  "history": {
+    "title": "History",
+    "empty": "Your history is empty",
+    "empty_desc": "All scans and diagnoses will be saved here.",
+    "search_placeholder": "Search by diagnosis...",
+    "filter_all": "All",
+    "no_results": "No records found",
+    "delete_record": "Delete record",
+    "delete_record_confirm": "Are you sure you want to remove this record from history?",
+    "clear_all": "Clear all",
+    "clear_all_confirm": "Are you sure you want to completely clear diagnosis history?"
+  },
+  "profile": {
+    "title": "Profile",
+    "settings": "Settings",
+    "language": "Language",
+    "language_select": "Select Language",
+    "theme": "Theme",
+    "system": "System",
+    "dark": "Dark",
+    "light": "Light",
+    "clear_history": "Clear History",
+    "clear_history_confirm": "Are you sure you want to delete all diagnosis history?",
+    "about": "About App",
+    "version": "Version"
+  },
+  "preview": {
+    "title": "Preview",
+    "analyze": "Analyze",
+    "crop_label": "Select crop",
+    "select_crop": "Select Crop",
+    "analyze_btn": "Start AI Analysis",
+    "crop_center": "Center Crop",
+    "retake": "Retake",
+    "quality_ok": "Good quality",
+    "quality_blurry": "Image is blurry"
+  },
+  "process": {
+    "title": "Analyzing...",
+    "step0": "Checking image quality...",
+    "step1": "Optimizing & compressing frame...",
+    "step2": "Running neural diagnosis...",
+    "step3": "Verifying against PlantVillage taxonomy...",
+    "step4": "Generating agronomic report...",
+    "notice": "Please do not close the app",
+    "offline_notice": "Offline Mode (PlantVillage reference)"
+  },
+  "result": {
+    "title": "Diagnosis Result",
+    "symptoms": "Symptoms",
+    "what_to_do": "What to do?",
+    "avoid": "What to avoid",
+    "reference_photos": "Reference Photos",
+    "limits": "Limits of visual diagnosis",
+    "view_recommendations": "View Detailed Recommendations",
+    "xai_hotspots": "Symptom Hotspots (XAI)",
+    "show_hotspots": "Show Hotspots",
+    "hide_hotspots": "Hide Hotspots",
+    "differential": "Differential Diagnosis",
+    "economic_impact": "Economic Impact (per ha)",
+    "listen": "Listen",
+    "stop": "Stop",
+    "phyto_act": "Phytosanitary Act"
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "what_to_do": "What to do?",
+    "important": "Important",
+    "important_desc": "This is a preliminary assessment. For accurate diagnosis and pesticide prescription, consult a specialist. The app does not prescribe chemicals or dosages.",
+    "sources": "Recommendation Sources",
+    "similar": "Similar Conditions",
+    "close": "Close"
+  },
+  "crops": {
+    "title": "Select Crop",
+    "search": "Search crops...",
+    "available": "Available Crops",
+    "categories": {
+      "all": "All (14)",
+      "vegetables": "Vegetables (4)",
+      "fruits": "Fruits (3)",
+      "berries": "Berries (5)",
+      "cereals": "Field Crops (2)"
+    },
+    "names": {
+      "apple": "Apple",
+      "blueberry": "Blueberry",
+      "cherry": "Cherry",
+      "corn": "Corn",
+      "grape": "Grape",
+      "orange": "Orange",
+      "peach": "Peach",
+      "pepper": "Bell Pepper",
+      "potato": "Potato",
+      "raspberry": "Raspberry",
+      "soybean": "Soybean",
+      "squash": "Squash",
+      "strawberry": "Strawberry",
+      "tomato": "Tomato"
+    }
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Back",
+    "error": "Error",
+    "success": "Success"
+  }
+}

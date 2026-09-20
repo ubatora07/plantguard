@@ -1,0 +1,350 @@
+{
+  "dataset": "PlantVillage",
+  "description": "PlantVillage Benchmark Dataset for PlantGuard AI (Track 3)",
+  "source": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "total_classes": 38,
+  "classes": {
+    "Apple___Apple_scab": {
+      "class_name": "Apple___Apple_scab",
+      "crop": "Apple",
+      "condition": "Apple scab",
+      "sample_images": [
+        "Apple___Apple_scab\\00075aa8-d81a-4184-8541-b692b78d398a___FREC_Scab 3335.JPG"
+      ],
+      "total_in_repo": 630
+    },
+    "Apple___Black_rot": {
+      "class_name": "Apple___Black_rot",
+      "crop": "Apple",
+      "condition": "Black rot",
+      "sample_images": [
+        "Apple___Black_rot\\0090d05d-d797-4c99-abd4-3b9cb323a5fd___JR_FrgE.S 8727.JPG"
+      ],
+      "total_in_repo": 621
+    },
+    "Apple___Cedar_apple_rust": {
+      "class_name": "Apple___Cedar_apple_rust",
+      "crop": "Apple",
+      "condition": "Cedar apple rust",
+      "sample_images": [
+        "Apple___Cedar_apple_rust\\025b2b9a-0ec4-4132-96ac-7f2832d0db4a___FREC_C.Rust 3655.JPG"
+      ],
+      "total_in_repo": 275
+    },
+    "Apple___healthy": {
+      "class_name": "Apple___healthy",
+      "crop": "Apple",
+      "condition": "healthy",
+      "sample_images": [
+        "Apple___healthy\\0055dd26-23a7-4415-ac61-e0b44ebfaf80___RS_HL 5672.JPG"
+      ],
+      "total_in_repo": 1645
+    },
+    "Blueberry___healthy": {
+      "class_name": "Blueberry___healthy",
+      "crop": "Blueberry",
+      "condition": "healthy",
+      "sample_images": [
+        "Blueberry___healthy\\008c85d0-a954-4127-bd26-861dc8a1e6ff___RS_HL 2431.JPG"
+      ],
+      "total_in_repo": 1502
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "class_name": "Cherry_(including_sour)___Powdery_mildew",
+      "crop": "Cherry (including sour)",
+      "condition": "Powdery mildew",
+      "sample_images": [
+        "Cherry_(including_sour)___Powdery_mildew\\00705aa7-5ea2-4419-9440-8ba65e108eb9___FREC_Pwd.M 0267.JPG"
+      ],
+      "total_in_repo": 1052
+    },
+    "Cherry_(including_sour)___healthy": {
+      "class_name": "Cherry_(including_sour)___healthy",
+      "crop": "Cherry (including sour)",
+      "condition": "healthy",
+      "sample_images": [
+        "Cherry_(including_sour)___healthy\\0008f3d3-2f85-4973-be9a-1b520b8b59fc___JR_HL 4092.JPG"
+      ],
+      "total_in_repo": 854
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "class_name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "crop": "Corn (maize)",
+      "condition": "Cercospora leaf spot Gray leaf spot",
+      "sample_images": [
+        "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot\\00120a18-ff90-46e4-92fb-2b7a10345bd3___RS_GLSp 9357.JPG"
+      ],
+      "total_in_repo": 513
+    },
+    "Corn_(maize)___Common_rust_": {
+      "class_name": "Corn_(maize)___Common_rust_",
+      "crop": "Corn (maize)",
+      "condition": "Common rust ",
+      "sample_images": [
+        "Corn_(maize)___Common_rust_\\RS_Rust 1563.JPG"
+      ],
+      "total_in_repo": 1192
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "class_name": "Corn_(maize)___Northern_Leaf_Blight",
+      "crop": "Corn (maize)",
+      "condition": "Northern Leaf Blight",
+      "sample_images": [
+        "Corn_(maize)___Northern_Leaf_Blight\\005318c8-a5fa-4420-843b-23bdda7322c2___RS_NLB 3853 copy.jpg"
+      ],
+      "total_in_repo": 985
+    },
+    "Corn_(maize)___healthy": {
+      "class_name": "Corn_(maize)___healthy",
+      "crop": "Corn (maize)",
+      "condition": "healthy",
+      "sample_images": [
+        "Corn_(maize)___healthy\\00031d74-076e-4aef-b040-e068cd3576eb___R.S_HL 8315 copy 2.jpg"
+      ],
+      "total_in_repo": 1162
+    },
+    "Grape___Black_rot": {
+      "class_name": "Grape___Black_rot",
+      "crop": "Grape",
+      "condition": "Black rot",
+      "sample_images": [
+        "Grape___Black_rot\\00090b0f-c140-4e77-8d20-d39f67b75fcc___FAM_B.Rot 0376.JPG"
+      ],
+      "total_in_repo": 1180
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "class_name": "Grape___Esca_(Black_Measles)",
+      "crop": "Grape",
+      "condition": "Esca (Black Measles)",
+      "sample_images": [
+        "Grape___Esca_(Black_Measles)\\0075b632-2e34-4e4f-9697-fe2b332b7ef8___FAM_B.Msls 4399.JPG"
+      ],
+      "total_in_repo": 1383
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "crop": "Grape",
+      "condition": "Leaf blight (Isariopsis Leaf Spot)",
+      "sample_images": [
+        "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)\\0001aa74-bbd7-433b-a900-1dccab39d521___FAM_L.Blight 4508.JPG"
+      ],
+      "total_in_repo": 1076
+    },
+    "Grape___healthy": {
+      "class_name": "Grape___healthy",
+      "crop": "Grape",
+      "condition": "healthy",
+      "sample_images": [
+        "Grape___healthy\\00e00912-bf75-4cf8-8b7d-ad64b73bea5f___Mt.N.V_HL 6067.JPG"
+      ],
+      "total_in_repo": 423
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+      "crop": "Orange",
+      "condition": "Haunglongbing (Citrus greening)",
+      "sample_images": [
+        "Orange___Haunglongbing_(Citrus_greening)\\00045d08-898c-40df-ada6-e7579637a1f9___UF.Citrus_HLB_Lab 1690.JPG"
+      ],
+      "total_in_repo": 5507
+    },
+    "Peach___Bacterial_spot": {
+      "class_name": "Peach___Bacterial_spot",
+      "crop": "Peach",
+      "condition": "Bacterial spot",
+      "sample_images": [
+        "Peach___Bacterial_spot\\00130039-8425-42e9-9dd9-15aead7271ff___Rut._Bact.S 3421.JPG"
+      ],
+      "total_in_repo": 2297
+    },
+    "Peach___healthy": {
+      "class_name": "Peach___healthy",
+      "crop": "Peach",
+      "condition": "healthy",
+      "sample_images": [
+        "Peach___healthy\\017d3d86-12bf-4280-8929-10dcd504ac46___Rutg._HL 3671.JPG"
+      ],
+      "total_in_repo": 360
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "crop": "Pepper, bell",
+      "condition": "Bacterial spot",
+      "sample_images": [
+        "Pepper,_bell___Bacterial_spot\\0022d6b7-d47c-4ee2-ae9a-392a53f48647___JR_B.Spot 8964.JPG"
+      ],
+      "total_in_repo": 997
+    },
+    "Pepper,_bell___healthy": {
+      "class_name": "Pepper,_bell___healthy",
+      "crop": "Pepper, bell",
+      "condition": "healthy",
+      "sample_images": [
+        "Pepper,_bell___healthy\\00100ffa-095e-4881-aebf-61fe5af7226e___JR_HL 7886.JPG"
+      ],
+      "total_in_repo": 1477
+    },
+    "Potato___Early_blight": {
+      "class_name": "Potato___Early_blight",
+      "crop": "Potato",
+      "condition": "Early blight",
+      "sample_images": [
+        "Potato___Early_blight\\001187a0-57ab-4329-baff-e7246a9edeb0___RS_Early.B 8178.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Potato___Late_blight": {
+      "class_name": "Potato___Late_blight",
+      "crop": "Potato",
+      "condition": "Late blight",
+      "sample_images": [
+        "Potato___Late_blight\\0051e5e8-d1c4-4a84-bf3a-a426cdad6285___RS_LB 4640.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Potato___healthy": {
+      "class_name": "Potato___healthy",
+      "crop": "Potato",
+      "condition": "healthy",
+      "sample_images": [
+        "Potato___healthy\\00fc2ee5-729f-4757-8aeb-65c3355874f2___RS_HL 1864.JPG"
+      ],
+      "total_in_repo": 152
+    },
+    "Raspberry___healthy": {
+      "class_name": "Raspberry___healthy",
+      "crop": "Raspberry",
+      "condition": "healthy",
+      "sample_images": [
+        "Raspberry___healthy\\00a3fc0e-64cc-4e35-ac2f-aef04fda9b22___Mary_HL 9177.JPG"
+      ],
+      "total_in_repo": 371
+    },
+    "Soybean___healthy": {
+      "class_name": "Soybean___healthy",
+      "crop": "Soybean",
+      "condition": "healthy",
+      "sample_images": [
+        "Soybean___healthy\\0007ca44-b81d-475c-b8b5-c226a041f020___RS_HL 6331.JPG"
+      ],
+      "total_in_repo": 2592
+    },
+    "Squash___Powdery_mildew": {
+      "class_name": "Squash___Powdery_mildew",
+      "crop": "Squash",
+      "condition": "Powdery mildew",
+      "sample_images": [
+        "Squash___Powdery_mildew\\0045a100-36d3-45df-b417-d487d6e07eb4___UMD_Powd.M 0003.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Strawberry___Leaf_scorch": {
+      "class_name": "Strawberry___Leaf_scorch",
+      "crop": "Strawberry",
+      "condition": "Leaf scorch",
+      "sample_images": [
+        "Strawberry___Leaf_scorch\\0024203d-6e4c-490f-b9a8-e5926df0b76e___RS_L.Scorch 0795.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Strawberry___healthy": {
+      "class_name": "Strawberry___healthy",
+      "crop": "Strawberry",
+      "condition": "healthy",
+      "sample_images": [
+        "Strawberry___healthy\\00166615-5e7b-4318-8957-5e50df335ee8___RS_HL 1785.JPG"
+      ],
+      "total_in_repo": 456
+    },
+    "Tomato___Bacterial_spot": {
+      "class_name": "Tomato___Bacterial_spot",
+      "crop": "Tomato",
+      "condition": "Bacterial spot",
+      "sample_images": [
+        "Tomato___Bacterial_spot\\00416648-be6e-4bd4-bc8d-82f43f8a7240___GCREC_Bact.Sp 3110.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Early_blight": {
+      "class_name": "Tomato___Early_blight",
+      "crop": "Tomato",
+      "condition": "Early blight",
+      "sample_images": [
+        "Tomato___Early_blight\\0012b9d2-2130-4a06-a834-b1f3af34f57e___RS_Erly.B 8389.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Late_blight": {
+      "class_name": "Tomato___Late_blight",
+      "crop": "Tomato",
+      "condition": "Late blight",
+      "sample_images": [
+        "Tomato___Late_blight\\0003faa8-4b27-4c65-bf42-6d9e352ca1a5___RS_Late.B 4946.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Leaf_Mold": {
+      "class_name": "Tomato___Leaf_Mold",
+      "crop": "Tomato",
+      "condition": "Leaf Mold",
+      "sample_images": [
+        "Tomato___Leaf_Mold\\00694db7-3327-45e0-b4da-a8bb7ab6a4b7___Crnl_L.Mold 6923.JPG"
+      ],
+      "total_in_repo": 952
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "class_name": "Tomato___Septoria_leaf_spot",
+      "crop": "Tomato",
+      "condition": "Septoria leaf spot",
+      "sample_images": [
+        "Tomato___Septoria_leaf_spot\\002533c1-722b-44e5-9d2e-91f7747b2543___Keller.St_CG 1831.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "crop": "Tomato",
+      "condition": "Spider mites Two-spotted spider mite",
+      "sample_images": [
+        "Tomato___Spider_mites Two-spotted_spider_mite\\002835d1-c18e-4471-aa6e-8d8c29585e9b___Com.G_SpM_FL 8584.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Target_Spot": {
+      "class_name": "Tomato___Target_Spot",
+      "crop": "Tomato",
+      "condition": "Target Spot",
+      "sample_images": [
+        "Tomato___Target_Spot\\002213fb-b620-4593-b9ac-6a6cc119b100___Com.G_TgS_FL 8360.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "crop": "Tomato",
+      "condition": "Tomato Yellow Leaf Curl Virus",
+      "sample_images": [
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus\\00139ae8-d881-4edb-925f-46584b0bd68c___YLCV_NREC 2944.JPG"
+      ],
+      "total_in_repo": 1000
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "class_name": "Tomato___Tomato_mosaic_virus",
+      "crop": "Tomato",
+      "condition": "Tomato mosaic virus",
+      "sample_images": [
+        "Tomato___Tomato_mosaic_virus\\000ec6ea-9063-4c33-8abe-d58ca8a88878___PSU_CG 2169.JPG"
+      ],
+      "total_in_repo": 373
+    },
+    "Tomato___healthy": {
+      "class_name": "Tomato___healthy",
+      "crop": "Tomato",
+      "condition": "healthy",
+      "sample_images": [
+        "Tomato___healthy\\000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL Leaf 259.1.JPG"
+      ],
+      "total_in_repo": 1000
+    }
+  }
+}
